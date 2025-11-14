@@ -13,7 +13,7 @@ export async function getAffiliates(date) {
   const res = await fetch(url, {
     headers: {
       // "X-GOAFFPRO-ACCESS-TOKEN": process.env.GOAFFPRO_API_KEY
-      "X-GOAFFPRO-ACCESS-TOKEN":"5d7c7806d9545a1d44d0dfd9da39e4b9fc513d43fe24a56cb9ced3280252ac22"
+      "X-GOAFFPRO-ACCESS-TOKEN":"8f9551309ffbeb13aa6cda65d4007813c690b6539d134c41ffd4e9421e13c60d"
     }
   });
   // const res = await fetch(
@@ -43,7 +43,7 @@ export async function getOrders(date) {
   const res = await fetch(url, {
     headers: {
       // "X-GOAFFPRO-ACCESS-TOKEN": process.env.GOAFFPRO_API_KEY
-      "X-GOAFFPRO-ACCESS-TOKEN":"5d7c7806d9545a1d44d0dfd9da39e4b9fc513d43fe24a56cb9ced3280252ac22"
+      "X-GOAFFPRO-ACCESS-TOKEN":"8f9551309ffbeb13aa6cda65d4007813c690b6539d134c41ffd4e9421e13c60d"
     }
   });
   return res.json();
