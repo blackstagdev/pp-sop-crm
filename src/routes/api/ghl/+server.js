@@ -7,7 +7,7 @@ const GHL_API_KEY = 'pit-13bada01-23cd-484e-909c-e9f49fc24546';
 // Hard-coded values
 const LOCATION_ID = 'YKo6A5vmDaEqPUyWAi1r'; 
 const PAGE_LIMIT = 500; // must be a number (<=500)
-const SPREADSHEET_ID = '1KKmny7DXdsIr0g3437N3m9B4KGQwI0ygeXrr12vkkxA';
+const SPREADSHEET_ID = '1AqQLwc53mjhS7ryAxFlWgmX6ZD9p1AYXYgVJgAL0UZQ';
 const CHECKPOINT_KEY = 'ghlContacts';
 
 // --- Recursive Flatten Helper ---
