@@ -11,7 +11,7 @@ import {
     appendSheet
   } from "$lib/googleSheet.js";
   
-  const SPREADSHEET_ID = "1AqQLwc53mjhS7ryAxFlWgmX6ZD9p1AYXYgVJgVJgAL0UZQ"; // <-- keep yours exact
+  const SPREADSHEET_ID = "1AqQLwc53mjhS7ryAxFlWgmX6ZD9p1AYXYgVJgAL0UZQ"; 
   const SHEET_NAME = "30days";
   
   export async function GET({ url }) {
