@@ -136,15 +136,8 @@ import {
       ]);
   
       // 8. Auto-save to Google Sheet on every GET
-      // append if sheet already has rows; else replace w/ headers
       if (rows.length > 0) {
-        const existing = await getSheetValues(SPREADSHEET_ID, SHEET_NAME);
-  
-        if (existing && existing.length > 1) {
-          await appendSheet(SPREADSHEET_ID, SHEET_NAME, rows);
-        } else {
-          await replaceSheet(SPREADSHEET_ID, SHEET_NAME, rows, headers);
-        }
+        await replaceSheet(SPREADSHEET_ID, SHEET_NAME, rows, headers);
       }
   
       // 9. Final response object
